@@ -1,0 +1,24 @@
+.Main{
+    height: 400px;
+    flex: 33%;
+    max-width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .Card{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+        height: 70%;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px 5px rgba($color: #000000, $alpha: .6);
+        &:hover{
+            cursor: pointer;
+            width: 73%;
+            height: 73%;
+        }
+    }
+}

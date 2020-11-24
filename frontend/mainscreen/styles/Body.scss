@@ -1,0 +1,31 @@
+.Main{
+    height: 92%;
+    //Esto es una propiedad/clase
+    .SearchContainer{        
+        height: 15%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 2px solid black;
+        box-shadow: 5px 5px rgba($color: #000000, $alpha: .6);
+        //No se le pone punto por q es una etiqueta de html
+        input{
+            width: 30%;
+            height: 35px;
+            border-radius: 5px;
+            padding-left: 10px;
+            font-size: 20px;
+        }
+    }
+    .ChampsContainer{
+        display: flex;
+        align-items: center;
+        flex-flow: wrap;
+        justify-content: center;
+        height: 85%;
+        overflow-y: scroll;
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }    
+}
